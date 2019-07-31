@@ -1,6 +1,6 @@
 SRCDIR := src
 BINDIR := bin
-INCDIR := include
+INCDIR := ../include
 
 CC := g++
 STD := c++14
