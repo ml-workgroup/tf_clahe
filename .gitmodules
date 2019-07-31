@@ -4,3 +4,6 @@
 [submodule "include/cudahelpers"]
 	path = include/cudahelpers
 	url = https://github.com/gravitino/cudahelpers.git
+[submodule "sample_data"]
+	path = sample_data
+	url = https://github.com/ml-workgroup/sample_data.git
