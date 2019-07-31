@@ -1,0 +1,3 @@
+[submodule "sample_data"]
+	path = sample_data
+	url = https://github.com/ml-workgroup/sample_data.git
