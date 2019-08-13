@@ -36,7 +36,7 @@ __global__ void clahe(
           Count * const hist,
     const dim3          data_dim,
     const dim3          window_dim,
-    const float         relative_clip_limit) 
+    const float         relative_clip_limit)
 {   
     const Index grid_dim_x = gridDim.x*blockDim.x;
     const Index grid_dim_y = gridDim.y*blockDim.y;
@@ -53,7 +53,7 @@ __global__ void clahe(
         for(Index y = gid_y; y < data_dim.y; y += gridDim.y*blockDim.y)
             for(Index x = gid_x; x < data_dim.x; x += gridDim.x*blockDim.x)
     {
-        for(Index i = gid; i < MaxColorDepth*; i += gridDim.x*blockDim.x)
+        for(Index i = gid; i < MaxColorDepth; i += gridDim.x*blockDim.x)
         {
             //hist[gid*MaxColorDepth+i] = 0; // TODO
         }
